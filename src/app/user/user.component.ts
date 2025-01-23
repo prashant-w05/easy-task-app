@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-
+import { type User } from './user.model';
 //Type aliases
 //type User = {
 //  id: string;
@@ -8,11 +8,11 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 //}
 
 //interface
-interface User {
-    id: string;
-    avatar: string;
-   name: string;
-}
+//interface User {
+//    id: string;
+//    avatar: string;
+//   name: string;
+//}
 
 
 @Component({
